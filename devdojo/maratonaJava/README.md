@@ -4,15 +4,71 @@
 
 Meta: 4 videos e exercícios/dia
 
+Basics
+=================================================================
 
-## Basics
+### Install
 
-- Install
-- Java Keywords
-- Code convention
-- Comments 
+Existem dois pacotes:
 
-## Variables
+JRE x JDK
+
+Se quiser somente rodar aplicações Java --> Java Runtime Environment
+Se quiser criar, debugar ou/e compilar --> Java Development Kit
+
+### Java Keywords
+
+obs: Arquivos com extensão ".class " são arquivos compilados para bytecode (binário JVM)
+
+Existem decompiladores que fazem o trabalho inverso.
+
+Para compilar o primeiro arquivo, abra o editor de texto > boiler plate
+
+	class OlaMundo {
+	
+		public static void main(String[ ] args) {
+		
+			System.out.println("Esse foi meu primeiro programa compilado pra bytecode")
+		}
+	}
+	
+	// ir para o Terminal e invocar o compiler e o arquivo com extensão .java
+	// como parâmetro: $ javac OlaMundo.java
+	
+
+Após, se tudo ocorrer bem, será gerado um arquivo .class :
+
+	// Execute no Terminal (local onde se encontra o arquivo):
+	
+	$ java OlaMundo
+	
+	// obs: se o arquivo for modificado ele terá que ser recompilado novamente.
+
+
+
+
+### Code convention
+
+Criação de classes - CamelCase
+
+- Comments
+
+
+		// comentário de única linha
+		
+		/*
+			comentário de diversas linhas
+		*/
+		
+		/***
+		* Comentário oficial para documentação
+		**/
+
+
+
+
+Variables
+===================================================================
 
 - Primitive Types
 - Integer numbers
@@ -22,9 +78,11 @@ Meta: 4 videos e exercícios/dia
 - Local variables
 - Variable Scope Local
 
-## Operators
+Operators
+==================================================================
 
-## Flow Control
+Flow Control
+=================================================================
 
 - if, else
 - switch
@@ -34,7 +92,8 @@ Meta: 4 videos e exercícios/dia
 - break
 - continue
 
-## Arrays
+Arrays
+===================================================================
 
 - two-dimensional arrays
 - multi-dimensional arrays
