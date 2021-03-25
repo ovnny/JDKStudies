@@ -1,4 +1,4 @@
-package com.ovnny.aula13.controledefluxo_while_dowhile;
+package com.ovnny._15controledefluxo_while_dowhile;
 
 public class ControleFluxoWhileDoWhile {
 
